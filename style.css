@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, f:active{outline: none;}
+
+nav, footer, header, aside{display: block}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 10px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit}
+
+input::-ms-clear{display: none}
+button {cursor: pointer}
+button::-moz-focus-inner{padding: 0; border: 0}
+a, a:visited{text-decoration: none}
+a:hover{text-decoration: none}
+ul li{list-style: none}
+img{vertical-align: top}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+body{
+    padding: 20px;
+    background-color:#C4C4C4 ;
+}
+.app{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.search-input{
+    background-color: #FFFFFF;
+
+}
+.search-input .input{
+    height: 61px;
+    font-size: 48px;
+    width: 100%;
+    color: black;
+    padding: 10px;
+}
+.autocom-box{
+    background-color: #FFFFFF;
+    max-width: 600px;
+}
+.list{
+
+    height: 44px;
+    font-size: 30px;
+    border: 2px solid #000000;
+    overflow-y: auto;
+    list-style: none;
+}
+.autocom-box .list:hover{
+    background-color: #65CDF9;
+}
+
+.results{
+    margin-top: 250px;
+}
+.result-card {
+
+background-color: #E27BEB;
+display: flex;
+justify-content: space-between;
+    font-size: 24px;
+    border: 1px solid #000000;
+}
+.result-card_text{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px 8px 16px;
+}
+.close{
+    align-self: center;
+margin-right: 16px;
+    background-color:#E27BEB ;
+    height: 42px;
+}
